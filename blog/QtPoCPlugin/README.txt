@@ -1,0 +1,1 @@
+https://0x41.cf/infosec/2019/05/28/skype-web-plugin-ez-rce.html
