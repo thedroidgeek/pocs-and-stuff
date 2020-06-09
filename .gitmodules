@@ -1,6 +1,8 @@
 [submodule "ctf/pwnable1"]
 	path = ctf/pwnable1
 	url = https://gist.github.com/thedroidgeek/342785f1dc30a1f72bd1282ef945c00f
-[submodule "blog/nokia-g240wa-cfg-tool"]
-	path = blog/nokia-g240wa-cfg-tool
+	branch = master
+[submodule "blog/nokia-router-cfg-tool"]
+	path = blog/nokia-router-cfg-tool
 	url = https://gist.github.com/thedroidgeek/80c379aa43b71015d71da130f85a435a
+	branch = master
