@@ -1,0 +1,5 @@
+A solution for a Windows reversing chall involving the use of a vcruntime140.dll wrapper (generated courtesy of https://github.com/mavenlin/wrap_dll) as a DLL injection vector, which means you can simply drop the resulting DLL in the same directory as the .exe for it to load and execute early.
+
+Contains multiple anti-debug circumvention mechanisms/methods (PEB, inline hooking, and runtime patches) with proper logging, as well as solving the challenge that involves extracting and decrypting credentials from virtualized code.
+
+Note that since we're wrapping the VC runtime DLL, initialization of some C++ std classes such as std::vector inside the wrapper's DllMain(), will fail, causing a stack overflow, which is the reason why dynamically allocated arrays are used, instead, throughout the code.

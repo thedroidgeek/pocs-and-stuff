@@ -1,0 +1,32 @@
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "vcrt140_wrapper", "vcrt140_wrapper\vcrt140_wrapper.vcxproj", "{2B35F84C-779E-47AF-A568-E5967E9E543F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{027FAC75-3FDB-4044-8DD0-BC297BD4C461} = {027FAC75-3FDB-4044-8DD0-BC297BD4C461}
+	EndProjectSection
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "minhook", "minhook-x86.vcxproj", "{027FAC75-3FDB-4044-8DD0-BC297BD4C461}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2B35F84C-779E-47AF-A568-E5967E9E543F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{2B35F84C-779E-47AF-A568-E5967E9E543F}.Debug|Win32.Build.0 = Debug|Win32
+		{2B35F84C-779E-47AF-A568-E5967E9E543F}.Release|Win32.ActiveCfg = Release|Win32
+		{2B35F84C-779E-47AF-A568-E5967E9E543F}.Release|Win32.Build.0 = Release|Win32
+		{027FAC75-3FDB-4044-8DD0-BC297BD4C461}.Debug|Win32.ActiveCfg = Debug|Win32
+		{027FAC75-3FDB-4044-8DD0-BC297BD4C461}.Debug|Win32.Build.0 = Debug|Win32
+		{027FAC75-3FDB-4044-8DD0-BC297BD4C461}.Release|Win32.ActiveCfg = Release|Win32
+		{027FAC75-3FDB-4044-8DD0-BC297BD4C461}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BF25B703-0F9E-41AD-8365-4454A5531116}
+	EndGlobalSection
+EndGlobal
