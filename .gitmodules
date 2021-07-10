@@ -6,3 +6,6 @@
 	path = blog/nokia-router-cfg-tool
 	url = https://gist.github.com/thedroidgeek/80c379aa43b71015d71da130f85a435a
 	branch = master
+[submodule "ctf/vcrt140_wrapper/minhook"]
+	path = ctf/vcrt140_wrapper/minhook
+	url = https://github.com/TsudaKageyu/minhook
